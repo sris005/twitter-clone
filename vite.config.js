@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/twitter-clone/',   // 🔴 repo name EXACT
+  base: '/twitter-clone/',
 })
