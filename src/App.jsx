@@ -1,7 +1,9 @@
-import { BrowserRouter } from "react-router-dom";
+function App() {
+  return (
+    <div className="min-h-screen bg-gray-100">
+      {/* tumhara pura UI yahin rahe */}
+    </div>
+  )
+}
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter basename="/twitter-clone">
-    <App />
-  </BrowserRouter>
-);
+export default App
