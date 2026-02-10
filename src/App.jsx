@@ -1,20 +1,11 @@
-import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
-import Explore from "./pages/Explore";
-import Profile from "./pages/Profile";
+import React from 'react'
 
-function App() {
+const App = () => {
   return (
-    <>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/explore" element={<Explore />} />
-        <Route path="/profile" element={<Profile />} />
-      </Routes>
-    </>
-  );
+    <div style={{ padding: '40px', fontSize: '24px' }}>
+      🚀 Twitter Clone is Working!
+    </div>
+  )
 }
 
-export default App;
+export default App
